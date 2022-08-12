@@ -175,6 +175,32 @@ body {
     max-width: 50px;
     border-radius: 50px;
 }
+.popular-courses h4{
+    font-size: 14px;
+    background: #5fcf80;
+    padding: 7px 14px;
+    color: #fff;
+    margin: 0;
+}
+.popular-courses .value{
+    margin: 0;
+    font-weight: 700;
+    font-size: 18px;
+    color: #37423b;
+}
+.popular-courses h3{
+    font-weight: 700;
+    font-size: 20px;
+}
+.popular-courses h3 a{
+    text-decoration: none;
+    color: #37423b;
+    transition: 0.3s;
+}
+.popular-courses p{
+    font-size: 14px;
+    color: #777777;
+}
 /* trainer */
 .trainer {
     padding: 60px 0;
