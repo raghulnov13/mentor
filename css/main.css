@@ -1,0 +1,32 @@
+
+/* header */
+.navbar-brand{
+    text-transform: uppercase;
+    color:#5fcf80;
+    font-size: 30px;
+    font-weight: 400;
+}
+.navbar .navbar-nav .nav-item{
+    font-size: 15px;
+    font-weight: 500;
+    color: #37423b;
+}
+.navbar .navbar-nav .nav-item .active{
+    color: #5fcf80;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    padding:10px 20px;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: #5fcf80;
+}
+/* about */
+#about{
+    
+}
+#about ul{
+    list-style-type: none;
+}
+#about ul li{
+
+}
