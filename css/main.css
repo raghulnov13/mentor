@@ -21,12 +21,42 @@
     color: #5fcf80;
 }
 /* about */
-#about{
-    
+.about{
+    padding: 60px 0;
 }
-#about ul{
+.about ul{
     list-style-type: none;
 }
-#about ul li{
+.about ul li{
+    padding-bottom: 10px;
 
+}
+.about ul i{
+    font-size: 20px;
+    padding-right: 4px;
+    color: #5fcf80;
+}
+/* counts */
+.counts{
+    padding: 60px 0;
+}
+/* why-us */
+.why-us{
+    padding: 60px 0;
+}
+/* features */
+.features{
+    padding: 60px 0;
+}
+/* popular-courses */
+.popular-courses{
+    padding: 60px 0;
+}
+/* trainer */
+.trainer{
+    padding: 60px 0;
+}
+/* footer */
+.footer{
+    padding: 60px 0;
 }
