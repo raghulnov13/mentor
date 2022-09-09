@@ -1,4 +1,7 @@
-
+body{
+    font-family: "Open Sans", sans-serif;
+    /* color: #444444; */
+}
 /* header */
 .navbar-brand{
     text-transform: uppercase;
@@ -38,11 +41,40 @@
 }
 /* counts */
 .counts{
-    padding: 60px 0;
+    padding: 30px 0;
+    background-color: #f6f7f6;
+    text-align: center;
 }
+.counts span{
+    font-size: 48px;
+    display: block;
+    color: #5fcf80;
+    font-weight: 700;
+}
+.counts p{
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #37423b;
+}
+
 /* why-us */
 .why-us{
     padding: 60px 0;
+}
+.why-us .content{
+    padding: 30px;
+    background: #5fcf80;
+    border-radius: 4px;
+    color: #fff;
+}
+.why-us .content h3{
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+.why-us p{
+    margin-bottom: 30px;
 }
 /* features */
 .features{
