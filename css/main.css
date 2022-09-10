@@ -28,7 +28,56 @@ body {
 .navbar .navbar-nav .nav-item .nav-link:hover {
     color: #5fcf80;
 }
-
+/* banner */
+#hero{
+    width: 100%;
+    height: 80vh;
+    background: url("../images/hero-bg.jpg") top center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+#hero::before{
+    content: "";
+    /* background: rgba(0, 0, 0, 0.4); */
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.banner-content h1{
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+.banner-content h2{
+    color: #eee;
+    margin-top: 10px;
+    font-size: 24px;
+}
+.banner-content .btn-get-started{
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 35px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin-top: 30px;
+    border: 2px solid #fff;
+    color: #fff;
+}
+.banner-content .btn-get-started:hover{
+    background: #5fcf80;
+    color: #fff;
+    border-color: #5fcf80;
+}
 /* about */
 .about {
     padding: 60px 0;
