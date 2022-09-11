@@ -314,6 +314,24 @@ body {
     color: #777777;
 }
 
+.card-footer {
+    background: #fff;
+    padding: 20px 15x;
+}
+
+.trainer-rank .box {
+    font-size: 18px;
+    color: #657a6d;
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+.trainer-rank .box i {
+    padding-right: 3px;
+
+}
+
 /* trainer */
 .trainer {
     padding: 60px 0;
@@ -368,7 +386,7 @@ footer {
     padding: 60px 0;
     color: #37423b;
     font-size: 14px;
-    background: #eef0ef;
+    /* background: #eef0ef; */
 }
 
 footer .footer-top {
@@ -377,10 +395,6 @@ footer .footer-top {
 }
 
 /* footer-contact */
-.footer-contact {}
-
-.footer-contact h3 {}
-
 .footer-contact p {
     font-size: 14px;
     line-height: 24px;
@@ -390,8 +404,6 @@ footer .footer-top {
 }
 
 /* footer-links */
-.footer-links {}
-
 .footer-links h4 {
     font-size: 16px;
     font-weight: bold;
@@ -482,13 +494,15 @@ footer .footer-top {
     border-radius: 50px;
     box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
 }
+
 /* copyright */
-.credits a{
+.credits a {
     color: #3ac162;
     transition: 0.3s;
     text-decoration: none;
 }
-.social-link a{
+
+.social-link a {
     text-decoration: none;
     font-size: 18px;
     display: inline-block;
@@ -502,4 +516,8 @@ footer .footer-top {
     width: 36px;
     height: 36px;
     transition: 0.3s;
+}
+
+.social-link a:hover {
+    background: #3ac162;
 }
