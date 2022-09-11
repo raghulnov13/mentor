@@ -32,7 +32,18 @@ body {
 .navbar .navbar-nav .nav-item .nav-link:hover {
     color: #5fcf80;
 }
-
+.btn-success{
+    margin-left: 22px;
+    background: #5fcf80;
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px 25px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 14px;
+    display: inline-block;
+    border:none;
+}
 /* banner */
 #hero {
     width: 100%;
